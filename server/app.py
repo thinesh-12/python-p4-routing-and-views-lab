@@ -24,7 +24,7 @@ def count(integer):
 def math(num1, operation, num2):
     if operation == 'div':
         operation = '/'
-        return str(eval("{}{}{}".gormat(num1, operation, num2)))
+        return str(eval("{}{}{}".format(num1, operation, num2)))
     
 
 
